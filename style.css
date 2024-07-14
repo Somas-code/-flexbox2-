@@ -1,0 +1,72 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tutorial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tutorial .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.tutorial .container .shapes{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    /* width: 100%; */
+    /* gap: 10px; */
+}
+.tutorial .container .shapes .redsquare{
+    border: 3px solid black;
+    width: 50%;
+
+    margin: 10px;
+    background-color: red;
+}
+.tutorial .container .shapes .rectangle{
+    width: 50%;
+    /* margin: 10px; */
+    
+     
+}
+.tutorial .container .shapes .rectangle .rectg{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    height: 30%;
+    margin: 10px;
+    background-color: darkseagreen; 
+}
+.tutorial .container .shapes .rectangle .rectb{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    height: 30%;
+    margin: 10px;
+    background-color: rgb(75, 138, 152); 
+}
+.tutorial .container .shapes .rectangle .rectw{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    height: 30%;
+    margin: 10px;
+    background-color: whitesmoke; 
+}
+.tutorial .container .bluerectangle{
+    border: 3px solid black;
+    /* width: 100%; */
+    height: 30%;
+    margin: 10px;
+    background-color: blue;
+}
